@@ -7,6 +7,7 @@ namespace OperatorExercise
         static void Main(string[] args)
         {
             // Part #1
+            Console.WriteLine("Part 1 of Exercise:");
 
             int a = 17;
             int b = 4;
@@ -26,6 +27,7 @@ namespace OperatorExercise
             Console.WriteLine();
 
             // Part #2
+            Console.WriteLine("Part 2 of Exercise:");
 
            static double AreaOfCircle(double r)
             {
@@ -40,6 +42,17 @@ namespace OperatorExercise
             double result = AreaOfCircle(radius);
 
             Console.WriteLine($"The area of the circle with radius of {radius} is {result}.");
+            Console.WriteLine();
+
+            // Thought exercise
+            Console.WriteLine("Thought Exercise - for fun");
+            var i = 3;
+            var j = 4;
+            var k = ++i * j++;
+            Console.WriteLine("In this scenario, 3 is incremented and then used.");
+            Console.WriteLine($"Then 4 is used, then incremented.");
+            Console.WriteLine($"Thus, 3 becomes 4 and multiplies 4");
+            Console.WriteLine($"The result is {k}.");
 
         }
     }
